@@ -13,7 +13,7 @@ export const LogoImage = styled.img`
 
 export const MenuWrapper = styled.nav`
   width: 100%;
-  height: 94px;
+  height: 104px;
   z-index: 100;
 
   display: flex;
@@ -31,8 +31,9 @@ export const MenuWrapper = styled.nav`
   border-bottom: 3px solid var(--primary);
 
   @media(max-width: 800px){
-    height: 40px;
+    height: 65px;
     justify-content: center;
+
   }
 
   `;
