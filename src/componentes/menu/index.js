@@ -12,7 +12,7 @@ import {LogoImage, MenuWrapper, ButtonLink} from './style.js'
             </a>
 
             <ButtonLink as="a" className="ButtonLink" href="/">
-                Novo Vídeo aquii
+                Novo Vídeo
             </ButtonLink>
         </MenuWrapper>
     )
