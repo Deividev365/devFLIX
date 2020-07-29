@@ -13,7 +13,7 @@ export const LogoImage = styled.img`
 
 export const MenuWrapper = styled.nav`
   width: 100%;
-  height: 94px;
+  height: 90px;
   z-index: 100;
 
   display: flex;

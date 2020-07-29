@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ContentAreaContainer = styled.section`
   margin-left: 5%;
   margin-right: 5%;
-  height: 120%;
+  height: 130%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,7 @@ ContentAreaContainer.Item = styled.div`
 `;
 
 ContentAreaContainer.Category = styled.h1`
-  font-family: Roboto;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 60px;
@@ -46,6 +46,8 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
+  font-weight: 300;
+
   @media (max-width: 800px) {
     display: none;
   }
@@ -53,11 +55,11 @@ ContentAreaContainer.Description = styled.p`
 
 ContentAreaContainer.Title = styled.h2`
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 40px;
   line-height: 1;
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 
   @media (max-width: 800px) {
     font-size: 32px;
@@ -66,9 +68,10 @@ ContentAreaContainer.Title = styled.h2`
 `;
 
 export const BannerMainContainer = styled.section`
-  height: 80vh;
+
+  height: 100vh;
   position: relative;
-  color: white;
+  color: var(--white);
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
   background-position: center;
