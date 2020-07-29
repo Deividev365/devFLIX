@@ -1,17 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import Menu from './componentes/menu'
-import dadosIniciais from './data/dados_iniciais.json';
-import BannerMain from './componentes/BannerMain'
-import Carousel from './componentes/Carousel'
-import Footer from './componentes/Footer';
+import Menu from '../../menu'
+import dadosIniciais from '../../../data/dados_iniciais.json';
+import BannerMain from '../../BannerMain'
+import Carousel from '../../Carousel'
+import Footer from '../../Footer';
 
 const AppWrapper = styled.div`
   background: var(--darkbckground);
 
 `;
 
-function App() {
+function Home() {
   return (
     <AppWrapper>
 
@@ -53,4 +53,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
