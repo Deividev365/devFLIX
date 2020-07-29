@@ -2,17 +2,17 @@ import React from 'react';
 import PageDefault from '../../../pageDefault';
 import { Link } from 'react-router-dom';
 
-const CadastroVideo = () => {
+const CadastroCategoria = () => {
     return(
         <PageDefault>
-           <h1>Cadastre o Seu vídeo</h1>
+           <h1>Cadastro de Categoria</h1>
 
-           <Link to="/cadastro/categoria">
-                Cadastrar Categoria
+           <Link to="/">
+                voltar
            </Link>
         </PageDefault>
     )
   }
 
-export default CadastroVideo;  
+export default CadastroCategoria;  
 

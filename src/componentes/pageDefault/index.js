@@ -1,0 +1,31 @@
+import React from 'react';
+import Menu from '../menu';
+import Footer from '../Footer';
+import styled from 'styled-components';
+
+
+const Main = styled.main`
+    color: var(--white);
+    background-color: var(--darkbckground);
+    flex: 1;
+    padding-top: 125px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+`;
+
+const PageDefault = ({ children }) => {
+    return(
+        <>
+            <Menu/>
+                <Main>
+                    {children}
+                </Main>
+            <Footer/>
+        </>
+     
+    );
+}
+
+export default PageDefault;
