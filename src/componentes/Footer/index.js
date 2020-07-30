@@ -1,13 +1,14 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { FooterBase, LogoImage, FooterLink } from './styles';
 import Logo from '../../assets/img/logo.png'
 
 function Footer() {
   return (
     <FooterBase>
-      <a href="/">
+      <Link to="/">
         <LogoImage src={Logo} alt="Logo" />
-      </a>
+      </Link>
       <p>
         {' '}
         <FooterLink href="https://www.alura.com.br/">
