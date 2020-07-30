@@ -2,17 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './reset.css';
 import Home from './componentes/pages/home';
+import Error from './componentes/error404/index';
+
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import CadastroVideo from './componentes/pages/cadastro/video';
 import CadastroCategoria from './componentes/pages/cadastro/categoria';
 
 
-const Error = () => {
-  return(
-    <div>Error 404</div>
-  )
-}
 
 
 ReactDOM.render(
