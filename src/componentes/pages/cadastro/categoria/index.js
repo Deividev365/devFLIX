@@ -3,17 +3,24 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../pageDefault';
 
 const CadastroCategoria = () => {
-  const [categorias, setCategorias] = useState('[Filmes]');
+  const [categorias, setCategorias] = useState( [] );
 
   const valoresIniciais = {
     name: 'this is a name',
     description: 'this is a description',  
-    color: '#000',
+    color: '#010101',
   }
 
   const [values, setValues] = useState(valoresIniciais);
   
-  
+  function setValue(key, value) {
+    setValues({
+
+      
+    })
+
+  }
+
 
     return(
         <PageDefault>
