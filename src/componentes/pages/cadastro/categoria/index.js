@@ -1,26 +1,37 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../pageDefault';
+import FormField from '../../../formField';
 
 const CadastroCategoria = () => {
   const [categorias, setCategorias] = useState( [] );
 
   const valoresIniciais = {
-    name: 'this is a name',
-    description: 'this is a description',  
-    color: '#010101',
+    name: '',
+    description: '',  
+    color: '',
   }
 
   const [values, setValues] = useState(valoresIniciais);
   
   function setValue(key, value) {
     setValues({
-
-      
+      ...values,
+      [key]: value,
     })
 
   }
 
+  function handleChange(eventsInfo){
+
+    setValue(
+      eventsInfo.target.getAttribute('name'),
+      eventsInfo.target.value
+    
+    );                
+  }
+
+ 
 
     return(
         <PageDefault>
@@ -33,31 +44,28 @@ const CadastroCategoria = () => {
                  values
              ]);
 
+             setValues(valoresIniciais);
+
+
            }}>
 
-              <div>
-                  <label>
-                    Nome da categoria
-                    <input 
-                      type="text"
-                      value={values.name}
-                      onChange={function onChange(eventsInfo){
-                        //setNomeDaCategoria(eventsInfo.target.value);
-                      }}
-                      />
-                </label>
-
-
+           <FormField
+           label="Nome da Categoria"
+            type="text"
+            name="name"
+            value={values.nome}
+            onChange={handleChange}
+            typeTextArea="<textarea>"
+           />
 
             <div>
                 <label>
-                    categoria
+                    Descrição
                     <textarea 
                       type="text"
                       value={values.description}
-                      onChange={function onChange(eventsInfo){
-                        //setNomeDaCategoria(eventsInfo.target.value);
-                      }}
+                      name="description"
+                      onChange={handleChange}
                       />
                 </label>
                 </div>
@@ -68,13 +76,11 @@ const CadastroCategoria = () => {
                     <input 
                       type="color"
                       value={values.color}
-                      onChange={function onChange(eventsInfo){
-                        //setNomeDaCategoria(eventsInfo.target.value);
-                      }}
+                      name="color"
+                      onChange={handleChange}
                       />
                 </label>
               </div>
-            </div>
          
 
 
@@ -88,7 +94,7 @@ const CadastroCategoria = () => {
              {categorias.map((categoria, indice) => {
                return(
                  <li key={`${categoria} ${indice} `}>
-                    {categoria}
+                    {categoria.name}
                  </li>
                )
              })}
