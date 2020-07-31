@@ -1,0 +1,17 @@
+{
+    "categorias": [
+      {
+        "id": 1,
+        "name": "starter",
+        "description": "Playlist do meu canal para iniciantes na programação",
+        "color": "gray"
+      },
+
+      {
+        "id": 2,
+        "name": "Front-End",
+        "description": "Aprenda sobre front-end",
+        "color": "green"
+      }
+    ]
+}
