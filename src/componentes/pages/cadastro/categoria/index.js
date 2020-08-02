@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../pageDefault';
 import FormField from '../../../formField';
 import Button from '../../../Button';
+import useForm from '../../../../hooks/useForm';
+
+
 
 const CadastroCategoria = () => {
   const [categorias, setCategorias] = useState([]);
@@ -13,25 +16,14 @@ const CadastroCategoria = () => {
     color: '',
   };
 
-  const [values, setValues] = useState(valoresIniciais);
+    const {handleChange, values, clearForm} = useForm(valoresIniciais);
 
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
 
-  function handleChange(eventsInfo) {
-    setValue(
-      eventsInfo.target.getAttribute('name'),
-      eventsInfo.target.value,
-
-    );
-  }
-
+  
   useEffect(() => {
-    const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://devflixbr.herokuapp.com/categorias';
     fetch(URL)
       .then(async (serverRes) => {
         const answear = await serverRes.json();
@@ -74,7 +66,7 @@ const CadastroCategoria = () => {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
@@ -115,9 +107,8 @@ const CadastroCategoria = () => {
 
       <ul>
         {categorias.map((categoria) => (
-          // eslint-disable-next-line react/no-array-index-key
-          <li key={`${categoria.name}`}>
-            {categoria.name}
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
