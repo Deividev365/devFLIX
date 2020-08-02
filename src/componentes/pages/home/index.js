@@ -1,17 +1,17 @@
 import React, {useEffect, useState} from 'react';
-import styled from 'styled-components';
-import Menu from '../../menu'
+//import styled from 'styled-components';
+//import Menu from '../../menu'
 //import dadosIniciais from '../../../data/dados_iniciais.json';
 import BannerMain from '../../BannerMain'
 import Carousel from '../../Carousel'
 import PageDefault from '../../pageDefault';
-import Footer from '../../Footer';
+//import Footer from '../../Footer';
 import categoriasRepository from '../../../repositories/categorias';
 
-const AppWrapper = styled.div`
-  background: var(--darkbckground);
+//const AppWrapper = styled.div`
+  //background: var(--darkbckground);
 
-`;
+//`;
 
 function Home() {
 
