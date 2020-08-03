@@ -13,9 +13,7 @@ position: relative;
   }
 `;
 
-const Label = styled.label`
-
-`;
+const Label = styled.label``;
 
 Label.Text = styled.span`
   color: #E5E5E5;
@@ -96,27 +94,31 @@ const FormField = ({
           hasValue={hasValue}
           onChange={onChange}
           autoComplete={hasSuggestions ? 'off' : 'on'}
-          list={`suggestionFor_${fieldId}`}
+          list={hasSuggestions ? `suggestionFor_${fieldId}` : undefined}
         />
         <Label.Text>
           {label}
           :
-          {
-            hasSuggestions && (
-        <datalist id={`suggestionFor_${fieldId}`}>
-          {
-            suggestions.map((suggestion) => (
-              <option key={suggestion}>
-                  {suggestion}
-              </option>
-            ))}
-        </datalist>
-        )}
         </Label.Text>
+          {
+            
+          hasSuggestions && (
+            <datalist id={`suggestionFor_${fieldId}`}>
+              {
+                suggestions.map((suggestion) => (
+                  <option value={suggestion} key={`suggestionFor_${fieldId}_option${suggestion}`}>
+                    {suggestion}
+                  </option>
+                ))
+              }
+            </datalist>
+          )
+        }
+
       </Label>
     </FormFieldWrapper>
   );
-};
+}
 
 FormField.defaultProps = {
   type: 'text',

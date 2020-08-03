@@ -1,0 +1,10 @@
+'npm run dev' = start server
+
+
+localhost:3000 = site
+localhost:8080 = json file including datas
+
+
+const notworking = ''
+if(notworking) return npm install --save concurrently;
+run notworking on the terminal

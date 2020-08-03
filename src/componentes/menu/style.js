@@ -40,7 +40,7 @@ export const MenuWrapper = styled.nav`
 
   export const ButtonLink = styled(Button)`
     color: var(--white);
-    border: 1.5px solid var(--primary);
+    border: 1.5px solid linear-gradient(to right, red , yellow);
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 30px;

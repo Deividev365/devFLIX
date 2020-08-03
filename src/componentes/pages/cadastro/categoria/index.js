@@ -10,6 +10,7 @@ import useForm from '../../../../hooks/useForm';
 const CadastroCategoria = () => {
   const [categorias, setCategorias] = useState([]);
 
+  console.log(categorias)
   const valoresIniciais = {
     name: '',
     description: '',
@@ -17,9 +18,9 @@ const CadastroCategoria = () => {
   };
 
     const {handleChange, values, clearForm} = useForm(valoresIniciais);
-
-
-  
+    
+    
+    
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
@@ -31,25 +32,7 @@ const CadastroCategoria = () => {
           ...answear,
         ]);
       });
-    /*
-    setTimeout(() => {
-      setCategorias([
-        ...categorias,
-        {
-          id: 1,
-          name: 'starter',
-          description: 'Playlist do meu canal para iniciantes na programação',
-          color: 'gray',
-        },
-        {
-          id: 2,
-          name: 'Front-End',
-          description: 'Aprenda sobre front-end',
-          color: 'green',
-        },
-      ]);
-    }, 4 * 1000);
-    */
+      
   }, []);
 
   return (
@@ -69,7 +52,6 @@ const CadastroCategoria = () => {
         clearForm();
       }}
       >
-
         <FormField
           label="Nome da Categoria"
           name="name"
