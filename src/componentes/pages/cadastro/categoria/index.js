@@ -10,7 +10,6 @@ import useForm from '../../../../hooks/useForm';
 const CadastroCategoria = () => {
   const [categorias, setCategorias] = useState([]);
 
-  console.log(categorias)
   const valoresIniciais = {
     name: '',
     description: '',
