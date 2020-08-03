@@ -28,7 +28,7 @@ function Home() {
           return(
             <div key={categoria.id}>   
               <BannerMain
-              videoTitle={dadosIniciais[0].videos[0].titulo}
+              videoTitle={dadosIniciais[0].videos[0].title}
               url={dadosIniciais[0].videos[0].url}
               videoDescription={dadosIniciais[0].videos[0].description}
             />
