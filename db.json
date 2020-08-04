@@ -6,7 +6,7 @@
       "cor": "#6BD1FF",
       "link_extra": {
         "text": "Para Iniciantes em Programação",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "url": "https://www.youtube.com/channel/UCve39Q8xXu8uwrLekrQmWcA?view_as=subscriber"
       }
     },
     {
@@ -14,8 +14,8 @@
       "titulo": "Negocios",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Tudo sobre negócios e dinheiro",
+        "url": ""
       }
     },
     {
@@ -23,22 +23,26 @@
       "titulo": "Inteligencia Artificial",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "text": "AI mudará a forma como nós trabalhamos",
+        "url": ""
       }
     },
     {
       "id": 4,
-      "titulo": "Filmes",
-      "cor": "orange"
+      "titulo": "Filmes e Series",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Filmes e Series de Tecnologia e SCI-FI",
+        "url": ""
+      }
     },
     {
       "id": 5,
-      "titulo": "React",
+      "titulo": "React e React Native",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Desenvolvimento Web e mobile com React e ReactNative",
+        "url": ""
       }
     },
     {
@@ -46,16 +50,16 @@
       "titulo": "Carreira",
       "cor": "gray",
       "link_extra": {
-        "text": "",
+        "text": "Carreira de Tecnologia",
         "url": ""
       }
     },
     {
       "id": 7,
-      "titulo": "FrontEnd",
+      "titulo": "JavaScript",
       "cor": "green",
       "link_extra": {
-        "text": "",
+        "text": "Projetos desenvolvidos em JavaScript",
         "url": ""
       }
     },
@@ -64,59 +68,170 @@
       "titulo": "Programador no Exterior",
       "cor": "blue",
       "link_extra": {
-        "text": "",
+        "text": "Tudo sobre morar fora como dev",
+        "url": ""
+      }
+    },
+    {
+      "id": 9,
+      "titulo": "História e Ciência",
+      "cor": "yellow",
+      "link_extra": {
+        "text": "Vídeos de história do mundo e Ciência",
+        "url": ""
+      }
+    },
+    {
+      "id": 10,
+      "titulo": "Astronomia",
+      "cor": "yellow",
+      "link_extra": {
+        "text": "Vídeos sobre o espaço e o futuro da humanidade",
+        "url": ""
+      }
+    },
+    {
+      "id": 11,
+      "titulo": "Músicas",
+      "cor": "pink",
+      "link_extra": {
+        "text": "Acalme a mente escutando uma música",
         "url": ""
       }
     }
   ],
   "videos": [
     {
-      "titulo": "",
-      "url": "https://www.youtube.com/watch?v=OgqGpYPSzVU&t=5s",
+      "titulo": "Guia DEFINITIVO de Aprendendo a Aprender | A maior BRONCA da sua vida [RATED R]",
+      "url": "https://www.youtube.com/watch?v=oUPaJxk6TZ0&t=1892s",
       "categoriaId": 1,
       "id": 1
     },
     {
-      "titulo": "Projeto em JS iniciantes",
-      "url": "https://www.youtube.com/watch?v=anE1LRIBOoM&t=3s",
+      "titulo": "Lógica de Programação | Entenda da maneira mais SIMPLES possível",
+      "url": "https://www.youtube.com/watch?v=QACnZP4fhE4",
       "categoriaId": 1,
       "id": 2
     },
     {
-      "titulo": "Programação: quando tu estará pronto para colocar em prática?",
-      "url": "https://www.youtube.com/watch?v=Cac9mQcPdfQ",
-      "categoriaId": 6,
+      "titulo": "Java Script para iniciantes | As primeiras Linhas de código",
+      "url": "https://www.youtube.com/watch?v=OgqGpYPSzVU&t=2s",
+      "categoriaId": 1,
       "id": 3
+    },
+    {
+      "titulo": "Primeiro PROJETO usando JavaScript | DiasVividos",
+      "url": "https://www.youtube.com/watch?v=anE1LRIBOoM&t=1s",
+      "categoriaId": 1,
+      "id": 4
     },
     {
       "titulo": "Guia DEFINITIVO de Aprendendo a Aprender | A maior BRONCA da sua vida [RATED R]",
       "url": "https://www.youtube.com/watch?v=oUPaJxk6TZ0&t=3127s",
       "categoriaId": 6,
-      "id": 4
+      "id": 5
     },
     {
       "titulo": "Procure o que você Ama ... SÓ QUE NÃO!",
       "url": "https://www.youtube.com/watch?v=A2-yU3YjB1U&list=PLdsnXVqbHDUcAWAN3cXHWnM9JEw2gjIN9",
       "categoriaId": 6,
-      "id": 5
+      "id": 6
     },
     {
       "titulo": "Projetos: Aprendendo a Priorizar",
       "url": "https://www.youtube.com/watch?v=akKRtjIqRjs&list=PLdsnXVqbHDUcAWAN3cXHWnM9JEw2gjIN9&index=3",
       "categoriaId": 6,
-      "id": 6
+      "id": 7
     },
     {
       "titulo": "Dúvida! Devo Fazer Faculdade?",
       "url": "https://www.youtube.com/watch?v=XWVcF7BoCSc&list=PLdsnXVqbHDUcAWAN3cXHWnM9JEw2gjIN9&index=4",
       "categoriaId": 6,
-      "id": 7
+      "id": 8
     },
     {
       "titulo": "Dúvida! Devo Fazer Faculdade?",
       "url": "https://www.youtube.com/watch?v=Qb5b8ZE9tIY&list=PLdsnXVqbHDUcAWAN3cXHWnM9JEw2gjIN9&index=16",
       "categoriaId": 6,
-      "id": 8
+      "id": 9
+    },
+    {
+      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
+      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY&list=PLMdYygf53DP4YTVeu0JxVnWq01uXrLwHi",
+      "categoriaId": 3,
+      "id": 10
+    },
+    {
+      "titulo": "Qual a diferença entre Inteligência Artificial, Machine Learning, Data Science, Deep Learning, etc?",
+      "url": "https://www.youtube.com/watch?v=ccZ2pyr3YDw&list=PLMdYygf53DP7YZiFUtGTWJJlvynRyrna-",
+      "categoriaId": 3,
+      "id": 11
+    },
+    {
+      "titulo": "Machine Learning: Tutorial prático usando apenas o navegador (é sensacional!!!)",
+      "url": "https://www.youtube.com/watch?v=JyGGMyR3x5I&list=PLMdYygf53DP7YZiFUtGTWJJlvynRyrna-&index=4",
+      "categoriaId": 3,
+      "id": 12
+    },
+    {
+      "titulo": "Agora Aquela I.A. Foi Longe Demais (e vai mudar o jeito que você trabalha)",
+      "url": "https://www.youtube.com/watch?v=pbVwH8o837A",
+      "categoriaId": 3,
+      "id": 13
+    },
+    {
+      "titulo": "Git e Github na PRÁTICA | Principais Comandos FUNDAMENTAIS",
+      "url": "https://www.youtube.com/watch?v=ycUF-wvZOYQ",
+      "categoriaId": 1,
+      "id": 14
+    },
+    {
+      "titulo": "A COVID-19 matou minha Startup? | Entendendo Criptomoedas",
+      "url": "https://www.youtube.com/watch?v=Y8SaMX30X1g",
+      "categoriaId": 2,
+      "id": 15
+    },
+    {
+      "titulo": "Bate-Papo com Fernando Ulrich | Entendendo Economia",
+      "url": "https://www.youtube.com/watch?v=JVJHaefHPZ0",
+      "categoriaId": 2,
+      "id": 16
+    },
+    {
+      "titulo": "Startup Vale 2013 | Startup e Software por Fabio Akita",
+      "url": "https://www.youtube.com/watch?v=Oiu-EhaLA4s",
+      "categoriaId": 2,
+      "id": 17
+    },
+    {
+      "titulo": "A Bolha de Startups vai Estourar? | Winter is Coming",
+      "url": "https://www.youtube.com/watch?v=wpPv1dJWjDs",
+      "categoriaId": 2,
+      "id": 18
+    },
+    {
+      "titulo": "a verdade sobre trabalhar no exterior como programador",
+      "url": "https://www.youtube.com/watch?v=Xmil7vAluuo",
+      "categoriaId": 8,
+      "id": 19
+    },
+    {
+      "titulo": "Custo de vida: ser programador na europa vale a pena?",
+      "url": "https://www.youtube.com/watch?v=-6BxjBcD_Kk",
+      "categoriaId": 8,
+      "id": 20
+    },
+    {
+      "titulo": "SEGUNDA GUERRA MUNDIAL - Nostalgia História",
+      "url": "https://www.youtube.com/watch?v=TV4Vzda09Ck",
+      "categoriaId": 9,
+      "id": 21
+    },
+    {
+      "titulo": "How The Economic Machine Works by Ray Dalio",
+      "url": "https://www.youtube.com/watch?v=PHe0bXAIuk0&list=PLtxdEpL7whp8RRHkzBVAGfRLiKJx8oOXi",
+      "categoriaId": 2,
+      "id": 22
     }
   ]
 }
