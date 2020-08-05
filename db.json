@@ -93,7 +93,43 @@
     {
       "id": 11,
       "titulo": "Brasil Colonia",
-      "cor": "pink",
+      "cor": "white",
+      "link_extra": {
+        "text": "description {videos}",
+        "url": ""
+      }
+    },
+    {
+      "id": 12,
+      "titulo": "Fascismo",
+      "cor": "white",
+      "link_extra": {
+        "text": "description {videos}",
+        "url": ""
+      }
+    },
+    {
+      "id": 13,
+      "titulo": "Crise de 1929",
+      "cor": "white",
+      "link_extra": {
+        "text": "description {videos}",
+        "url": ""
+      }
+    },
+    {
+      "id": 14,
+      "titulo": "Mesopotamia",
+      "cor": "white",
+      "link_extra": {
+        "text": "description {videos}",
+        "url": ""
+      }
+    },
+    {
+      "id": 15,
+      "titulo": "Egito Antigo",
+      "cor": "white",
       "link_extra": {
         "text": "description {videos}",
         "url": ""
@@ -102,28 +138,16 @@
   ],
   "videos": [
     {
-      "titulo": "SEGUNDA GUERRA MUNDIAL - Nostalgia História",
-      "url": "https://www.youtube.com/watch?v=TV4Vzda09Ck",
+      "titulo": "Como aprender melhor e mais fácil | Nerdologia",
+      "url": "https://www.youtube.com/watch?v=n5U83znAsbI",
       "categoriaId": 1,
       "id": 1
     },
     {
-      "titulo": "A Alemanha Pós Guerra Completo parte 1 e 2 Dublado em HD",
-      "url": "https://www.youtube.com/watch?v=vBeRNVwqzh0&t=1s",
-      "categoriaId": 1,
+      "titulo": "PRIMEIRO GOVERNO VARGAS (1930 - 1945)",
+      "url": "https://www.youtube.com/watch?v=gdfy9G2bMoc&fbclid=IwAR1LcNAHRXGwjeQT2zoX2d5tjP2sqrAi4T01uao2V2WdSz0sNaMsiovxs8k",
+      "categoriaId": 9,
       "id": 2
-    },
-    {
-      "titulo": "O papel das mulheres na guerra - União Soviética",
-      "url": "https://www.youtube.com/watch?v=6ozPomQt-AY&list=PLRyNS7kgL_LnXqmZPQR_ZbheIrjKQ5fSv",
-      "categoriaId": 1,
-      "id": 3
-    },
-    {
-      "titulo": "A Alemanha poderia ter vencido a guerra?",
-      "url": "https://www.youtube.com/watch?v=pg5sZ1dL_So",
-      "categoriaId": 1,
-      "id": 4
     }
   ]
 }
