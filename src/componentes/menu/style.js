@@ -3,11 +3,11 @@ import Button from '../Button';
 
 
 export const LogoImage = styled.img`
-  max-width: 168px;
+  max-width: 200px;
 
 
   @media(max-width: 800px) {
-    max-width: 105px;
+    max-width: 160px;
   }
 `;
 
@@ -15,7 +15,6 @@ export const MenuWrapper = styled.nav`
   width: 100%;
   height: 90px;
   z-index: 100;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +27,7 @@ export const MenuWrapper = styled.nav`
 
 
   background-color: var(--black);
-  border-bottom: 3px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
 
   @media(max-width: 800px){
     height: 65px;
@@ -39,6 +38,8 @@ export const MenuWrapper = styled.nav`
   `;
 
   export const ButtonLink = styled(Button)`
+   
+    visibility: none; /*manuntenção para adicionar vídeos propriety: hidden*/
     color: var(--white);
     border: 1.5px solid linear-gradient(to right, red , yellow);
     box-sizing: border-box;
@@ -61,7 +62,7 @@ export const MenuWrapper = styled.nav`
     }
 
     @media(max-width: 800px) {
-      background-color: var(--primary);
+      background-color: var(--newVideo);
       position: fixed;
       border-radius: 0px;
       left: 0;

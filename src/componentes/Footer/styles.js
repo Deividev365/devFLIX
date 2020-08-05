@@ -17,7 +17,7 @@ export const FooterBase = styled.footer`
 `;
 
 export const LogoImage = styled.img`
-  width: 100px;
+  width: 150px;
 `;
 
 export const FooterLink = styled.a`
@@ -27,7 +27,7 @@ export const FooterLink = styled.a`
   transition: 0.4s;
   &:hover,
   &:focus{
-    color: var(--aluraColor);
+    color: var(--footerhover);
   }
 
 `;

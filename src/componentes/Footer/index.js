@@ -11,8 +11,8 @@ function Footer() {
       </Link>
       <p>
         {' '}
-        <FooterLink href="https://www.alura.com.br/">
-          Feito durante a Imersão React da Alura | 2020
+        <FooterLink target="_blank" href="https://www.youtube.com/channel/UCt1DS9yWqPQoF-WLjZqbNOw/featured/">
+          Aprenda  história em um único lugar 
         </FooterLink>
       </p>
     </FooterBase>

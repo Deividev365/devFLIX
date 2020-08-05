@@ -1,27 +1,37 @@
 import styled from 'styled-components';
 
 export const VideoCardContainer = styled.a`
-  border: 6px solid;
-  text-decoration: none;
-  overflow: hidden;
+  overflow: none;
   cursor: pointer;
   color: white;
-  flex: 0 0 298px;
-  width: 356px;
-  height: 230px;
-  background-image: ${({ url }) => `url(${url})`};
+  flex: 0 0 384px;
+  width: 384px;
+  height: 215px;
   background-size: cover;
   background-position: center;
-  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-image: ${({ url }) => `url(${url})`};
+  border-radius: 5px;
+  box-shadow: 5px 5px 4px var(--primary);
   position: relative;
   display: flex;
-  align-items: flex-end;
-  padding: 16px;
+  align-items: center;
+  padding: 0;
+  transition: all 0.3s ease-in-out;
+  margin: 32px 4px;
+  z-index: 1;
 
-  transition: opacity .5s;
+
+  
+  &.highlight {
+    transform: scale(0);
+  }
+
   &:hover,
   &:focus {
-    opacity: .3;
+    transform: scale(1.3);
+    box-shadow: 0 4px 16px var(--shadowColor);
+    z-index: 5;
   }
   
   &:not(:first-child) {

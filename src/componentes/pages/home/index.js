@@ -4,6 +4,8 @@ import Carousel from '../../Carousel'
 import PageDefault from '../../pageDefault';
 import categoriasRepository from '../../../repositories/categorias';
 
+const messageError = "Não se preocupe, carregará em breve :)";
+
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
   
@@ -21,16 +23,16 @@ function Home() {
 
   return (
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && <div>Loading...</div>}
+      {dadosIniciais.length === 0 && <div>${messageError}</div>}
       
       {dadosIniciais.map((categoria, indice) => {
         if(indice === 0) {
           return(
             <div key={categoria.id}>   
               <BannerMain
-              videoTitle={dadosIniciais[0].videos[0].title}
+              videoTitle={dadosIniciais[0].videos[0].titulo}
               url={dadosIniciais[0].videos[0].url}
-              videoDescription={dadosIniciais[0].videos[0].description}
+              videoDescription={"Os principais Eventos."}
             />
             <Carousel ignoreFirstVideo category={dadosIniciais[0]}/>
             </div>

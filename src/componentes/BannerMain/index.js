@@ -2,6 +2,10 @@ import React from 'react';
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
 
+
+const bannerVideoLink = "https://www.youtube.com/watch?v=oUPaJxk6TZ0&t=1892s";
+
+
 function getYouTubeId(youtubeURL) {
   return youtubeURL
     .replace(
@@ -35,9 +39,9 @@ export default function BannerMain({
           <VideoIframeResponsive
             youtubeID={youTubeID}
           />
-          <a href="https://github.com/ederdaniel22">
+          <a href={bannerVideoLink}>
           <WatchButton>
-            Assistir
+            Assista
           </WatchButton>
           </a>
       

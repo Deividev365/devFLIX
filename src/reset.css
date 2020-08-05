@@ -4,8 +4,8 @@
 }
 
 :root {
-  --primary: #5dbd38;
-  --black: #1c1c1d;
+  --primary: #E50914;
+  --black: #010102;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 
@@ -13,7 +13,8 @@
   --white: #e5fdda;
   --frontEnd: #909091;
   --backEnd: #00C86F;
-  --aluraColor: #68A1EB;
+  --footerhover: #5a5a5a;
+  --newVideo: #e02730;
 }
 
 html,

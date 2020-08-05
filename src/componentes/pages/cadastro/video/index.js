@@ -1,11 +1,14 @@
 import React, {useEffect, useState} from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import PageDefault from '../../../pageDefault';
 import useForm from '../../../../hooks/useForm';
 import FormField from '../../../formField';
 import Button from '../../../Button';
 import videosRepository from '../../../../repositories/videos'
 import categoriasRepository from '../../../../repositories/categorias'
+
+
+
 
 const CadastroVideo = () => {
   const history = useHistory();
@@ -30,7 +33,7 @@ const CadastroVideo = () => {
 
     return(
         <PageDefault>
-           <h1>Cadastre o Seu vídeo</h1>
+           <h1 align>Cadastre o seu Vídeo</h1>
 
            <form onSubmit={(event) => {
              event.preventDefault()
@@ -47,7 +50,7 @@ const CadastroVideo = () => {
               categoriaId: categoriaEscolhida.id,
             })
             .then(() => {
-              console.log('Cadastrou com Sucesso!!');
+              alert('Cadastrado com sucesso!');
               history.push('/');
             })
 
@@ -82,10 +85,11 @@ const CadastroVideo = () => {
           </Button>
 
            </form>
-
+           {/*
            <Link to="/cadastro/categoria">
                 Cadastrar Categoria
            </Link>
+           */}
         </PageDefault>
     )
   }
