@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import { FooterBase, LogoImage, FooterLink } from './styles';
 import Logo from '../../assets/img/logo.png'
-
+const footerLink = "https://www.youtube.com/channel/UCXbGJ6H-HBeTdTYl4FIixIA";
 function Footer() {
   return (
     <FooterBase>
@@ -11,8 +11,8 @@ function Footer() {
       </Link>
       <p>
         {' '}
-        <FooterLink target="_blank" href="https://www.youtube.com/channel/UCt1DS9yWqPQoF-WLjZqbNOw/featured/">
-          Aprenda  história em um único lugar 
+        <FooterLink target="_blank" href={footerLink}>
+          Aprenda  história em um só lugar 
         </FooterLink>
       </p>
     </FooterBase>

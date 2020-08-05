@@ -5,7 +5,7 @@ import Button from '../Button';
 export const LogoImage = styled.img`
   max-width: 200px;
 
-
+  
   @media(max-width: 800px) {
     max-width: 160px;
   }
