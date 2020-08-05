@@ -148,6 +148,24 @@
       "url": "https://www.youtube.com/watch?v=gdfy9G2bMoc&fbclid=IwAR1LcNAHRXGwjeQT2zoX2d5tjP2sqrAi4T01uao2V2WdSz0sNaMsiovxs8k",
       "categoriaId": 9,
       "id": 2
+    },
+    {
+      "titulo": "LIVE DOS 3º ANOS DO ENSINO MÉDIO: CRISE DE 1929",
+      "url": "https://www.youtube.com/watch?v=aB-FUhA6Myo",
+      "categoriaId": 13,
+      "id": 3
+    },
+    {
+      "titulo": "1 ANOS DO ENSINO MÉDIO: MESOPOTÂMIA",
+      "url": "https://www.youtube.com/watch?v=hJTpladwjds",
+      "categoriaId": 14,
+      "id": 4
+    },
+    {
+      "titulo": "LIVE 9º ANOS DO ENSINO FUNDAMENTAL: SEGUNDA GUERRA MUNDIAL (ANTECEDENTES)",
+      "url": "https://www.youtube.com/watch?v=ELx-fs4gWfo",
+      "categoriaId": 1,
+      "id": 5
     }
   ]
 }

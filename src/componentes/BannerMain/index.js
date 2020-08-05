@@ -3,7 +3,7 @@ import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
 
 
-const bannerVideoLink = "https://www.youtube.com/watch?v=oUPaJxk6TZ0&t=1892s";
+const bannerVideoLink = "https://www.youtube.com/watch?v=n5U83znAsbI";
 
 
 function getYouTubeId(youtubeURL) {
