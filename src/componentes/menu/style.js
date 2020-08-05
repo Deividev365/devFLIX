@@ -39,7 +39,7 @@ export const MenuWrapper = styled.nav`
 
   export const ButtonLink = styled(Button)`
    
-    visibility: hidden; /*manuntenção para adicionar vídeos propriety: hidden*/
+    visibility: none; /*manuntenção para adicionar vídeos propriety: hidden*/
     color: var(--white);
     border: 1.5px solid linear-gradient(to right, red , yellow);
     box-sizing: border-box;
