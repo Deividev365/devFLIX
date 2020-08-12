@@ -12,7 +12,7 @@
     {
       "id": 2,
       "titulo": "Primeira Guerra mundial",
-      "cor": "black",
+      "cor": "red",
       "link_extra": {
         "text": "",
         "url": ""
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "titulo": "Primeiro Reinado",
-      "cor": "black",
+      "cor": "red",
       "link_extra": {
         "text": "",
         "url": ""
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "titulo": "Revolução Industrial",
-      "cor": "black",
+      "cor": "red",
       "link_extra": {
         "text": "",
         "url": ""
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "titulo": "Revolução Russa",
-      "cor": "black",
+      "cor": "red",
       "link_extra": {
         "text": "",
         "url": ""
@@ -84,7 +84,7 @@
     {
       "id": 10,
       "titulo": "Sistema e economia colonial",
-      "cor": "black",
+      "cor": "red",
       "link_extra": {
         "text": "",
         "url": ""
@@ -102,7 +102,7 @@
     {
       "id": 12,
       "titulo": "Fascismo",
-      "cor": "black",
+      "cor": "red",
       "link_extra": {
         "text": "",
         "url": ""
@@ -120,7 +120,7 @@
     {
       "id": 14,
       "titulo": "Mesopotamia",
-      "cor": "black",
+      "cor": "red",
       "link_extra": {
         "text": "",
         "url": ""
@@ -138,7 +138,7 @@
     {
       "id": 16,
       "titulo": "Revolução Francesa",
-      "cor": "black",
+      "cor": "red",
       "link_extra": {
         "text": "",
         "url": ""
@@ -156,7 +156,7 @@
     {
       "id": 18,
       "titulo": "Nazismo",
-      "cor": "yellow",
+      "cor": "red",
       "link_extra": {
         "text": "",
         "url": ""
@@ -174,7 +174,7 @@
     {
       "id": 20,
       "titulo": "Período Neolítico",
-      "cor": "black",
+      "cor": "red",
       "link_extra": {
         "text": "",
         "url": ""
@@ -192,7 +192,7 @@
     {
       "id": 22,
       "titulo": "Civilização Egipcia",
-      "cor": "black",
+      "cor": "red",
       "link_extra": {
         "text": "",
         "url": ""
@@ -238,7 +238,42 @@
       "url": "https://www.youtube.com/watch?v=ELx-fs4gWfo",
       "categoriaId": 1,
       "id": 5
+    },
+    {
+      "titulo": "O DESCOBRIMENTO DO BRASIL | EDUARDO BUENO",
+      "url": "https://www.youtube.com/watch?v=byB2s3BM7Y8",
+      "categoriaId": 3,
+      "id": 6
+    },
+    {
+      "titulo": "SEGUNDA GUERRA MUNDIAL - Nostalgia História",
+      "url": "https://www.youtube.com/watch?v=TV4Vzda09Ck",
+      "categoriaId": 1,
+      "id": 7
+    },
+    {
+      "titulo": "World War I in 5 Minutes",
+      "url": "https://www.youtube.com/watch?v=jACiIe8Ly5o",
+      "categoriaId": 2,
+      "id": 8
+    },
+    {
+      "titulo": "A História da Segunda Guerra Mundial: O Caminho para a Guerra | Documentário The History Channel",
+      "url": "https://www.youtube.com/watch?v=ur0Jy2hq774",
+      "categoriaId": 1,
+      "id": 9
+    },
+    {
+      "titulo": "1938 a 1945 - Segunda Guerra Mundial - A Queda doTerceiro Reich",
+      "url": "https://www.youtube.com/watch?v=0Tyti6b6jzg",
+      "categoriaId": 1,
+      "id": 10
+    },
+    {
+      "titulo": "primeira Guerra.Mundial o fim de uma era dublado",
+      "url": "https://www.youtube.com/watch?v=s25JGNCSu4M",
+      "categoriaId": 2,
+      "id": 11
     }
-    
   ]
 }
