@@ -1,6 +1,6 @@
-<h1 align="center">
-    <img alt="proffy-landing" src="https://github.com/PF-Henrique/NLW-2-Proffy/blob/master/.github/amostra.png" />
-</h1>
+
+
+![fdgddg](https://user-images.githubusercontent.com/61792159/90049130-c66ffb00-dcaa-11ea-866a-cfba0783a518.png)
 
 
 
