@@ -7,6 +7,5 @@ Project made to help students learn history in the best environment as possible.
 
 [Checkout the project here](https://historiaflix.netlify.app/)
 
-This project was b
 Thanks, Alura :heart: 
 
