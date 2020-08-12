@@ -3,25 +3,25 @@
     {
       "id": 1,
       "titulo": "Segunda Guerra mundial",
-      "cor": "#6BD1FF",
+      "cor": "white",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
     {
       "id": 2,
       "titulo": "Primeira Guerra mundial",
-      "cor": "#00C86F",
+      "cor": "black",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
     {
       "id": 3,
       "titulo": "História do Brasil",
-      "cor": "#9cd33b",
+      "cor": "white",
       "link_extra": {
         "text": "",
         "url": ""
@@ -30,63 +30,63 @@
     {
       "id": 4,
       "titulo": "Primeiro Reinado",
-      "cor": "orange",
+      "cor": "black",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
     {
       "id": 5,
       "titulo": "Segundo Reinado",
-      "cor": "red",
+      "cor": "white",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
     {
       "id": 6,
       "titulo": "Revolução Industrial",
-      "cor": "gray",
+      "cor": "black",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
     {
       "id": 7,
       "titulo": "Guerra Fria",
-      "cor": "green",
+      "cor": "white",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
     {
       "id": 8,
       "titulo": "Revolução Russa",
-      "cor": "blue",
+      "cor": "black",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
     {
       "id": 9,
       "titulo": "Era Vargas",
-      "cor": "yellow",
+      "cor": "white",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
     {
       "id": 10,
       "titulo": "Sistema e economia colonial",
-      "cor": "yellow",
+      "cor": "black",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
@@ -95,16 +95,16 @@
       "titulo": "Brasil Colonia",
       "cor": "white",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
     {
       "id": 12,
       "titulo": "Fascismo",
-      "cor": "white",
+      "cor": "black",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
@@ -113,16 +113,16 @@
       "titulo": "Crise de 1929",
       "cor": "white",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
     {
       "id": 14,
       "titulo": "Mesopotamia",
-      "cor": "white",
+      "cor": "black",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
         "url": ""
       }
     },
@@ -131,7 +131,79 @@
       "titulo": "Egito Antigo",
       "cor": "white",
       "link_extra": {
-        "text": "description {videos}",
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 16,
+      "titulo": "Revolução Francesa",
+      "cor": "black",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 17,
+      "titulo": "Renascimento",
+      "cor": "white",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 18,
+      "titulo": "Nazismo",
+      "cor": "black",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 19,
+      "titulo": "Guerra Civil Espanhola",
+      "cor": "white",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 20,
+      "titulo": "Período Neolítico",
+      "cor": "black",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 21,
+      "titulo": "Civilização Hindu",
+      "cor": "white",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 22,
+      "titulo": "Civilização Egipcia",
+      "cor": "black",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 23,
+      "titulo": "Filmes",
+      "cor": "white",
+      "link_extra": {
+        "text": "",
         "url": ""
       }
     }
