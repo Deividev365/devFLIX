@@ -3,7 +3,7 @@
     {
       "id": 1,
       "titulo": "Segunda Guerra mundial",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "titulo": "Primeira Guerra mundial",
-      "cor": "red",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "titulo": "História do Brasil",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "titulo": "Primeiro Reinado",
-      "cor": "red",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "titulo": "Segundo Reinado",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "titulo": "Revolução Industrial",
-      "cor": "red",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "titulo": "Guerra Fria",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "titulo": "Revolução Russa",
-      "cor": "red",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "titulo": "Era Vargas",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -84,7 +84,7 @@
     {
       "id": 10,
       "titulo": "Sistema e economia colonial",
-      "cor": "red",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -93,7 +93,7 @@
     {
       "id": 11,
       "titulo": "Brasil Colonia",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -102,7 +102,7 @@
     {
       "id": 12,
       "titulo": "Fascismo",
-      "cor": "red",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -111,7 +111,7 @@
     {
       "id": 13,
       "titulo": "Crise de 1929",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -120,7 +120,7 @@
     {
       "id": 14,
       "titulo": "Mesopotamia",
-      "cor": "red",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -129,7 +129,7 @@
     {
       "id": 15,
       "titulo": "Egito Antigo",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -138,7 +138,7 @@
     {
       "id": 16,
       "titulo": "Revolução Francesa",
-      "cor": "red",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -147,7 +147,7 @@
     {
       "id": 17,
       "titulo": "Renascimento",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -156,7 +156,7 @@
     {
       "id": 18,
       "titulo": "Nazismo",
-      "cor": "red",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -165,7 +165,7 @@
     {
       "id": 19,
       "titulo": "Guerra Civil Espanhola",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -174,7 +174,7 @@
     {
       "id": 20,
       "titulo": "Período Neolítico",
-      "cor": "red",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -183,7 +183,7 @@
     {
       "id": 21,
       "titulo": "Civilização Hindu",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -192,7 +192,7 @@
     {
       "id": 22,
       "titulo": "Civilização Egipcia",
-      "cor": "red",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
@@ -201,7 +201,7 @@
     {
       "id": 23,
       "titulo": "Filmes",
-      "cor": "white",
+      "cor": "#e02730",
       "link_extra": {
         "text": "",
         "url": ""
